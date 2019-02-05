@@ -1,0 +1,177 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+/* Utility classes */
+
+ul li a{
+    color: #0288d1;
+    text-decoration: none;
+}
+/* container  */
+#container{
+    max-width: 980px;
+    margin: 0 auto; 
+    overflow: auto;
+    margin-top: 100px;
+}
+
+.border{
+    border: 2px solid #82888b4f;
+}
+
+.main-head{
+    font-size: 22px;
+    float: left;
+}
+#header{
+    height: 80px;
+}
+
+#header > ul {
+    list-style: none;
+}
+
+#header ul li {
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    /* line-height: 1.4px; */
+    padding-right: 20px;
+    border-right: 1px solid #82888b4f;
+}
+
+#header ul li:nth-child(3) {
+    border-right:none;
+}
+
+#header ul li a {
+    font-size: 14px;
+}
+
+#head-2{
+    font-size: 15px;
+    margin-top: -24px;
+    float: left;
+    color: #4d5057;
+    /* margin-left: 10px; */
+    border-bottom: 4px solid red;
+}
+.preview{
+  width:450px; 
+  height:260px; 
+}
+.thumb{
+  width:105px;
+  margin-right:0px;
+  margin-left:40PX;
+}
+.normal{
+  border:1px solid #cccccc;  
+  margin-left:0pX;
+}
+.selected{
+  border:1px solid red; 
+  margin-left:0pX;
+}
+
+#images{
+  padding-top: 20px;
+  float: left;
+  width: 50%;
+}
+   
+
+
+   
+   #righ_flo{
+    float: left;
+    margin: auto;
+   }
+   .side{
+     padding: 0;
+   }
+   .side li{
+     display: inline-flex;
+     list-style: none;
+     padding-right: 15px;
+     color: gray;
+     font: bold;
+   }
+   .rate{
+     width: 50%;
+     border-radius: 20px;
+     position: relative;
+     padding: 0;
+   }
+   .rate1{
+     background:greenyellow;
+     border-radius: 20px;
+   }
+   span{
+    background-color: yellowgreen;
+       height: 10px;
+     display: block;
+     width: 70%;
+     animation: prog 5s linear;
+     border-radius: 20px;
+   }
+
+   .check{
+     border: none;
+     width: 300px;
+     height: 50px;
+     font-size: 20px;
+     background-color: red;
+     border-radius: 5px;
+     margin: 80px 150px;
+     position: absolute;
+     color: white;
+   }
+   .check:hover{
+     cursor: pointer;
+   }
+   @keyframes prog{
+     0%{width:0%}
+     70%{width:70%;}
+   }
+   .ani{
+     padding: 0px 20%;
+     display: inline-flex;
+   }
+   .ani button{
+     padding: 7px;
+     border: 1px solid lightgray;
+     font-size: 15px;
+     font: bold;
+     background-color: white;
+   }
+   
+   .bt1{
+     padding: 0px;
+     margin: 0px;
+   }
+   .ani button:hover,button:focus{
+     background-color: lightgray;
+     cursor:pointer;
+   }
+   .ani button:focus{
+     background-color: lightgray;
+       outline-offset: -4px;
+   }
+   .ani button:active{
+     transform: scale(0.99);
+   }
+   .no{
+     width: 80px;
+     height: 30px;
+     background-color: white;
+     border-bottom: 3px solid red;;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     position: relative;
+     padding: 0px;
+     margin: -8px 0px;
+   }
+   
